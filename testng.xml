@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.appclaro.automatizacion.ProyectoBase.PruebaFuncionalTest">
+      <methods>
+	        <include name="cp001DetalleConsumos"/>
+	        <include name="cp002PagaTuFactura"/>
+	        <include name="cp003DetalleDeTuPlan"/>
+	        <include name="cp004RecargasyPaquetes"/>
+	        <include name="cp005FamiliayAmigos"/>
+	        <include name="cp006RoamingInternacional"/>
+	        <include name="cp007GestionaTuEquipo"/>
+	        <include name="cp008execCambiaTuNumero"/>
+	        <include name="cp009execRedimeBeneficios"/>
+	        <include name="cp010execChateaConNosotros"/>
+	        </methods>
+	   </class> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

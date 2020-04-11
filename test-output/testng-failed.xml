@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.appclaro.automatizacion.ProyectoBase.PruebaFuncionalTest">
+        <methods>
+          <include name="cp012DetalleDeTuPlanHogar"/>
+          <include name="cp013PagaFactura"/>
+          <include name="cp018AdquirirProducto"/>
+          <include name="cp001_Postpago"/>
+          <include name="cp022RecomendadorInternet"/>
+          <include name="cp028DesasociarCuenta"/>
+          <include name="cp015_execDetallePlanPre"/>
+          <include name="teardown"/>
+          <include name="cp023RedimeBeneficiosHogar"/>
+          <include name="cp003DetalleDeTuPlan"/>
+          <include name="cp017EntraLadoClaro"/>
+          <include name="cp014_execSaldosConsumos"/>
+          <include name="cp026RecomendadosHogar"/>
+          <include name="cp000Hogar"/>
+          <include name="cp025ChateaNosotros"/>
+          <include name="cp014VisitasTecnicas"/>
+          <include name="cp027ConfiguracionSoporte"/>
+          <include name="cp019ControlRemoto"/>
+          <include name="cp020ClaroGaming"/>
+          <include name="cp021SolictarTraslado"/>
+          <include name="cp001DetalleConsumos"/>
+          <include name="cp024CentroAtencionVentas"/>
+          <include name="cp016Elegidos"/>
+          <include name="setup"/>
+          <include name="cp030ClaroMusica"/>
+          <include name="cp002PagaTuFactura"/>
+          <include name="cp031StreamingVivo"/>
+          <include name="cp032DetalleConsumos"/>
+          <include name="cp015PersonalizaRedWifi"/>
+          <include name="cp013_Prepago"/>
+          <include name="cp029ClaroVideo"/>
+        </methods>
+      </class> <!-- com.appclaro.automatizacion.ProyectoBase.PruebaFuncionalTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
